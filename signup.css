@@ -48,6 +48,11 @@ body {
     font-size: 12px;
 }
 
+.signup-submit-btn:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
 .submit-btn:hover {
     cursor: pointer;
     opacity: 80%;
