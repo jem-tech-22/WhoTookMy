@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(23, 76, 200), rgb(128, 197, 253));
+    background-image: url('images/abstract-pattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.signup-header-text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.create-user-input {
+    border: 0px ;
+    background-color: rgb(234, 233, 233);
+    border-radius: 6px;
+    width: 260px;
+    height: 30px;
+    padding: 3px 3px 3px 8px;
+    font-size: 12px;
+}
+
+.signup-submit-btn {
+    border: 0px;
+    border-radius: 300px;
+    width: 155px;
+    height: 35px;
+    padding: 3px;
+    background: linear-gradient(to right, orange, red);
+    color: white;
+    margin-bottom: 80px;
+    font-size: 12px;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    opacity: 80%;
+
+}
+
+.signup-text {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.abstract-pattern {
+    width: 100px;
+}
+
+.website-logo {
+    width: 110px;
+}
