@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -22,7 +23,7 @@ body {
     gap: 15px;
 }
 .signup-header-text {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0px;
 }
 
@@ -34,6 +35,7 @@ body {
     height: 30px;
     padding: 3px 3px 3px 8px;
     font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .signup-submit-btn {
@@ -46,6 +48,7 @@ body {
     color: white;
     margin-bottom: 80px;
     font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .signup-submit-btn:hover {
@@ -65,7 +68,7 @@ body {
     justify-content: center;
     text-align: center;
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .abstract-pattern {
@@ -74,4 +77,14 @@ body {
 
 .website-logo {
     width: 110px;
+}
+
+.create-acc-icon {
+    width: 25px;
+}
+
+.header-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
