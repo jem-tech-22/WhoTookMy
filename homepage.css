@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-color: rgb(219, 219, 219); */ 
+    /* background-color: rgb(219, 219, 219); */  
     background: linear-gradient(to right, rgb(23, 76, 200), rgb(128, 197, 253));
     background-image: url('images/abstract-pattern.png');
     background-size: cover;
